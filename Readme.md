@@ -1,6 +1,6 @@
 # QR Verifier
 
-A Python-based tool for detecting and verifying QR codes using OpenCV and SIFT-based texture analysis.
+A Python-based tool for detecting and verifying QR codes using OpenCV and SIFT-based and ORB-based texture analysis.
 
 ## Features
 
@@ -18,10 +18,10 @@ Below are screenshots illustrating the step-by-step use of the QR Code Signature
 
 2. **Images Loaded with QR Detected**  
    ![QR Detection 1](images/screen2.png)
-   ![QR Detection 2](images/screen3.png)
 
-3. **Matching Result with Feature Lines**  
-   ![Matching Result](images/screen4.png)
+3. **Matching Result with Feature Lines for SIFT and ORB** 
+   ![Matching Result SIFT](images/screen3.png) 
+   ![Matching Result ORB](images/screen4.png)
 
 ## Installation
 
@@ -107,7 +107,7 @@ The script will:
 
 - Open the GUI for selecting two images
 - Detect QR codes in the selected images
-- Compare the QR codes using SIFT-based texture analysis
+- Compare the QR codes using SIFT-based and ORB-based texture analysis
 - Display the similarity score
 
 ## License
